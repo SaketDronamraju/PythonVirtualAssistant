@@ -80,8 +80,8 @@ def takeCommandMIC():
     
 
 def sendEmail(receiver,subject,content):
-    senderemail='bobthebest200@gmail.com'
-    epwd='vroh txem bgkp mhsh'
+    senderemail='#enter email id'
+    epwd='#enter password'
     
     server=smtplib.SMTP('smtp.gmail.com',587)    
     server.starttls() 
@@ -139,13 +139,7 @@ if __name__=="__main__":
             
             elif 'email' in query:
                 email_list={
-                    
-                   'Saket':'bobthebest200@gmail.com',
-                   'Dad':'srinid4@yahoo.com',
-                   'Mom':'mallika.dornamraju@yahoo.com',
-                   'Sruthi':'sruthi.suresh.1209@gmail.com',
-                   'Arya':'aryaspatil101@gmail.com',
-                   'Narendra':'narendra.jade2022@vitstudent.ac.in'
+                 #enter email ids here
                    }
                 try:
                     speak("To whom do you want to send the mail?")
@@ -164,7 +158,7 @@ if __name__=="__main__":
             
                 
             elif 'message' in query:
-                user_name={
+                user_name={#enter numbers here
                     }
                 try:
                     speak("To whom do you want to send the whatsapp message?")
