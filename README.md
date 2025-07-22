@@ -39,8 +39,8 @@ pip install pyttsx3 SpeechRecognition pyautogui wikipedia pywhatkit newsapi-pyth
 
 ### Voice Commands
 
-- **Time**: Asks for the current time.
-- **Date**: Asks for the current date.
+- **Time**: Gives the current time.
+- **Date**: Gives the current date.
 - **Email**: Sends an email to a predefined contact.
 - **Message**: Sends a WhatsApp message to a predefined contact.
 - **Wikipedia**: Searches for information on Wikipedia.
