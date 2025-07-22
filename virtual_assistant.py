@@ -165,13 +165,6 @@ if __name__=="__main__":
                 
             elif 'message' in query:
                 user_name={
-                    'Saket':'+91 73373 30960',
-                    'Sruthi':'+91 80560 48684',
-                    'Arya':'+91 83790 36100',
-                    'Mom':'+91 77025 27786',
-                    'Dad':'+91 77025 27184',
-                    'Narendra':'+91 97179 91744'
-                    
                     }
                 try:
                     speak("To whom do you want to send the whatsapp message?")
